@@ -1,0 +1,43 @@
+.anim {
+	&.leftReveal {
+		opacity: 0;
+
+		&.go {
+			opacity: 1;
+			animation: leftReveal 1s;
+		}
+	}
+
+	&.rightReveal {
+		opacity: 0;
+
+		&.go {
+			opacity: 1;
+			animation: rightReveal 1s;
+		}
+	}
+}
+
+@keyframes leftReveal {
+	from {
+		opacity: 0;
+		transform: translateX(-500px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes rightReveal {
+	from {
+		opacity: 0;
+		transform: translateX(500px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}

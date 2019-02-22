@@ -1,0 +1,32 @@
+[
+	{
+		"id": 1,
+		"name": "Eminent Amenities brochure",
+		"img": "eminent.jpg",
+		"gallery": ["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg"]
+    },
+	{
+		"id": 2,
+		"name": "Net Pulz brochure",
+		"img": "netpulz.jpg",
+		"gallery": ["bc0.png", "bc1.png", "bc2.png", "bc3.png", "bc4.png"]
+	},
+	{
+		"id": 3,
+		"name": "Anitha Enterprises brochure",
+		"img": "anitha.jpg",
+		"gallery": ["cbb_front.jpg", "cbb_back.jpg", "cbb_inside.jpg"]
+	},
+	{
+		"id": 4,
+		"name": "Legato Packers brochure",
+		"img": "legato.jpg",
+		"gallery": ["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg"]
+	},
+	{
+		"id": 5,
+		"name": "Hi Rise brochure",
+		"img": "hirise.jpg",
+		"gallery": ["hirise1.jpg", "hirise2.jpg"]
+	}
+]

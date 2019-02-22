@@ -1,0 +1,177 @@
+.home_banner_wrapper {
+	overflow: hidden;
+	height: 100vh;
+	width: 100%;
+	background: rgba(255, 255, 255, 1);
+	background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 20%, rgba(237, 237, 237, 1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(20%, rgba(246, 246, 246, 1)), color-stop(100%, rgba(237, 237, 237, 1)));
+	background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 20%, rgba(237, 237, 237, 1) 100%);
+	background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 20%, rgba(237, 237, 237, 1) 100%);
+	background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 20%, rgba(237, 237, 237, 1) 100%);
+	background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 20%, rgba(237, 237, 237, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=1);
+
+	.home_banner {
+		overflow: hidden;
+		background-size: contain;
+		background-attachment: fixed;
+		height: 100vh;
+		position: relative;
+	}
+
+
+	#banner_wrapper {
+
+		text {
+			font-family: 'Montserrat';
+			font-weight: bold;
+		}
+	}
+
+	.top_left {
+		position: absolute;
+		top: -50px;
+		left: -70px;
+		width: 250px;
+	}
+
+	.top_right {
+		position: absolute;
+		top: -70px;
+		right: -70px;
+		width: 250px;
+	}
+
+	.bottom_left {
+		position: absolute;
+		bottom: -70px;
+		left: -70px;
+		width: 250px;
+	}
+
+	.bottom_right {
+		position: absolute;
+		bottom: -50px;
+		right: -70px;
+		width: 250px;
+	}
+
+	.bottom_left_about {
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		width: 50vw;
+	}
+}
+
+.logo {
+	width: 18%;
+	right: 15%;
+	top: 2%;
+}
+
+.clicker {
+	cursor: pointer;
+}
+
+#clicker1 {
+	transition: fill ease 0.3s;
+
+	&:hover path {
+		fill: $pista;
+		transition: fill ease 0.3s;
+	}
+}
+
+#clicker2 {
+	transition: fill ease 0.3s;
+
+	&:hover path {
+		fill: $crimpson;
+		transition: fill ease 0.3s;
+	}
+}
+
+#clicker3 {
+	transition: fill ease 0.3s;
+
+	&:hover path {
+		fill: $yello;
+		transition: fill ease 0.3s;
+	}
+}
+
+#clicker4 {
+	transition: fill ease 0.3s;
+
+	&:hover path {
+		fill: $vilet;
+		transition: fill ease 0.3s;
+	}
+}
+
+#clicker5 {
+	transition: fill ease 0.3s;
+
+	&:hover path {
+		fill: $rose;
+		transition: fill ease 0.3s;
+	}
+}
+
+.pista,
+.crimpson,
+.yellow,
+.violet,
+.rose {
+	fill: #cccccc;
+}
+
+.pista.active {
+	fill: $pista;
+}
+
+.crimpson.active {
+	fill: $crimpson;
+}
+
+.yellow.active {
+	fill: $yello;
+}
+
+.violet.active {
+	fill: $vilet;
+}
+
+.rose.active {
+	fill: $rose;
+}
+
+@media (max-width: 767px) {
+	.home_banner_wrapper {
+		height: 70vh;
+
+		.home_banner {
+			height: 70vh;
+		}
+
+		.top_left,
+		.top_right,
+		.bottom_right,
+		.bottom_left {
+			width: 190px;
+			display: none;
+		}
+	}
+
+	#banner_wrapper,
+	.banner_content {
+		display: none !important;
+	}
+
+	.logo {
+		width: 50%;
+		right: 25%;
+		top: 2%;
+	}
+}

@@ -1,0 +1,64 @@
+@font-face {
+	font-family: 'ansid';
+	src: url('../fonts/ansid.eot');
+	src: url('../fonts/ansid.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ansid.woff') format('woff'),
+		url('../fonts/ansid.ttf') format('truetype'),
+		url('../fonts/ansid.svg#ansid') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class*='icon-']:before {
+	display: inline-block;
+	font-family: 'ansid';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+
+.icon-smartphone:before {
+	content: '\0041';
+}
+
+.icon-logo:before {
+	content: '\0042';
+}
+
+.icon-newsletter:before {
+	content: '\0043';
+}
+
+.icon-print:before {
+	content: '\0044';
+}
+
+.icon-web:before {
+	content: '\0045';
+}
+
+.icon-cloud_service:before {
+	content: '\0046';
+}
+
+.icon-mobile_apps:before {
+	content: '\0047';
+}
+
+.icon-web_design:before {
+	content: '\0048';
+}
+
+.icon-wesite_security:before {
+	content: '\0049';
+}
+
+.icon-iot:before {
+	content: '\004a';
+}
+
+.icon-others:before {
+	content: '\004b';
+}

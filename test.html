@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ansidhovi Cyber Services</title>
+  <!-- CSS -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style/css/ansidhovi.css">
+  <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style/animations.css">
+</head>
+<body>
+
+
+  <!-- the buttons that opens the modal dialog -->
+  <ul class="list-unstyled">
+    <li class="project span3" data-type="pfa">
+      <a href="#" class="thumbnail">
+        <h1>Kenneth Atkins</h1>
+        <p>[Description here]</p>
+        <div class="profile" style="display: none;">
+          <ul>
+            <li>title: Atkins Kenneth</li>
+            <li>Age: 16</li>
+          </ul>
+        </div>
+      </a>     
+    </li>
+    <li class="project span3" data-type="pfa">
+      <a href="#" class="thumbnail">
+        <h1>benaich med</h1>
+        <p>[Description here]</p>
+        <div class="profile" style="display: none;">
+          <ul>
+            <li>title: benaich med</li>
+            <li>Age: 21</li>
+          </ul>
+        </div>
+      </a>     
+    </li>
+    <li class="project span3" data-type="pfa">
+      <a href="#" class="thumbnail">
+        <h1>benaich med</h1>
+        <p>[Description here]</p>
+        <div class="profile" style="display: none;">
+          <ul>
+            <li>title: benaich med</li>
+            <li>Age: 21</li>
+          </ul>
+        </div>
+      </a>     
+    </li>
+    <li class="project span3" data-type="pfa">
+      <a href="#" class="thumbnail">
+        <h1>benaich med</h1>
+        <p>[Description here]</p>
+        <div class="profile" style="display: none;">
+          <ul>
+            <li>title: benaich med</li>
+            <li>Age: 21</li>
+          </ul>
+        </div>
+      </a>     
+    </li>
+  </ul>
+  <!-- Modal  -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h4 class="modal-title" id="myModalLabel">Profile</h4>
+        </div>
+        <div class="modal-body">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- the div that represents the modal dialog -->
+
+<!-- 
+    <a class="pointer clickToZoom mb-4"><img class="img-fluid" src="img/projects/print/'+data[i].img+'"/>\
+    </a>\
+    <div class="modal fade" id="zoom">\
+      <div class="modal-dialog modal-lg modal-dialog-centered">\
+        <div class="modal-content">\
+          <div class="modal-header">\
+            <h4 class="modal-title"></h4>\
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">\
+              <span aria-hidden="true">&times;</span>\
+              <span class="sr-only">Close</span>\
+            </button>\
+          </div>\
+          \
+        </div>\
+      </div>\
+    </div> -->
+    <script src="js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="js/ansidhovi.js"></script>
+    <!-- <script src="js/css3-animate-it.js"></script> -->
+    <script src="inc/index_js1.js"></script>
+    <script>
+     (function($) {
+      var infoModal = $('#myModal');
+      $('.thumbnail').on('click', function(){
+        htmlData = $(this).find('.profile').html();
+        infoModal.find('.modal-body').html(htmlData);
+        infoModal.modal('show');
+        return false;
+      });
+    })(jQuery);
+  </script>
+
+</body>
+</html>
