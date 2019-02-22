@@ -6,10 +6,10 @@ setInterval(function(){
 	$('.home_banner').css('background-position', i + 'px');
 	i++;
 }, 50);
-setInterval(function(){
-	$('.footer').css('background-position', i + 'px');
-	i++;
-}, 50);
+// setInterval(function(){
+// 	$('.footer').css('background-position', i + 'px');
+// 	i++;
+// }, 50);
 
 var time = 20;
 
