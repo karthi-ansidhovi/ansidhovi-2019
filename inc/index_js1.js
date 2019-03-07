@@ -22,8 +22,8 @@ $.ajax('data/projects.json').done(function( data ){
 	for( var i = 0; i < 3; i++ ){
 		var cont = '<div class="col-md-6 col-lg-4 mt-4">\
 		<div class="item">\
-		<div class="screen" style="background-image: url(img/projects/system_mockup.png);">\
-		<img src="img/projects/'+data[i].img+'" class="img-fluid">\
+		<div class="screen" style="background-image: url(img/projects/web/system_mockup.png);">\
+		<img src="img/projects/web/'+data[i].img+'" class="img-fluid">\
 		</div>\
 		<h5 class="text-center mt-4 thm"><a href="'+data[i].link+'" target="_blank">'+data[i].name+'</a></h5>\
 		<p class="text-center">'+data[i].category+'</p>\
@@ -39,11 +39,11 @@ $.ajax('data/projects.json').done(function( data ){
 $.ajax('data/projects.json').done(function( data ){
 
 	for( var i = 0; i < data.length; i++ ){
-		var cont = '<div class="col-lg-4 col-sm-6 mt-4">\
+		var cont = '<div class="col-lg-4 col-sm-6 mt-4 pro_wrap more_wrap" style="display:none;">\
 		<a href="'+data[i].link+'" target="_blank">\
 		<div class="item">\
-		<div class="screen" style="background-image: url(img/projects/system_mockup.png);">\
-		<img src="img/projects/'+data[i].img+'" class="img-fluid">\
+		<div class="screen" style="background-image: url(img/projects/web/system_mockup.png);">\
+		<img src="img/projects/web/'+data[i].img+'" class="img-fluid">\
 		</div>\
 		<h5 class="text-center mt-4 thm">'+data[i].name+'</h5>\
 		</div>\
@@ -56,6 +56,19 @@ $.ajax('data/projects.json').done(function( data ){
 	alert("Something went wrong website did'nt load well, please refresh the page.");
 });
 
+$( document ).ready(function () {
+		$(".more_wrap").slice(0, 12).show();
+		if ($(".pro_wrap:hidden").length != 0) {
+			$("#loadMore").show();
+		}		
+		$("#loadMore").on('click', function (e) {
+			e.preventDefault();
+			$(".more_wrap:hidden").slice(0, 12).slideDown();
+			if ($(".more_wrap:hidden").length == 0) {
+				$("#loadMore").fadeOut('slow');
+			}
+		});
+	});
 /*-------------------------*/
 $.ajax('data/pro_logo.json').done(function( data ){
 
@@ -96,7 +109,7 @@ $.ajax('data/pro_print.json').done(function( data ){
 $.ajax('data/newsletter.json').done(function( data ){
 
 	for( var i = 0; i < data.length; i++ ){
-		var cont = '<a class="thumbnail" data-name="'+data[i].name+'" data-img1="'+data[i].img1+'"><div class="col-lg-4 col-sm-6 mt-4">\
+		var cont = '<a class="thumbnail" data-name="'+data[i].name+'" data-img1="'+data[i].img1+'"><div class="col-lg-4 col-sm-6 mt-4 nl_wrap nlmore_wrap" style="display:none;">\
 		<div class="item">\
 		<div class="screen" style="background-image: url(img/projects/newsletter/mail_mockupB.png);">\
 		<img src="img/projects/newsletter/'+data[i].img+'" class="img-fluid">\
@@ -110,6 +123,20 @@ $.ajax('data/newsletter.json').done(function( data ){
 	console.log(data);
 	alert("Something went wrong website did'nt load well, please refresh the page.");
 });
+
+$( document ).ready(function () {
+		$(".nlmore_wrap").slice(0, 12).show();
+		if ($(".nl_wrap:hidden").length != 0) {
+			$("#NLloadMore").show();
+		}		
+		$("#NLloadMore").on('click', function (e) {
+			e.preventDefault();
+			$(".nlmore_wrap:hidden").slice(0, 12).slideDown();
+			if ($(".nlmore_wrap:hidden").length == 0) {
+				$("#NLloadMore").fadeOut('slow');
+			}
+		});
+	});
 
 /*_____________________________________*/
 $.ajax('data/mob_apps.json').done(function( data ){
@@ -179,4 +206,3 @@ jQuery(document).ready(function(){
 });
 
 // -------------------
-

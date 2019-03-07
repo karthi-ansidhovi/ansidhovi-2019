@@ -1,12 +1,30 @@
 [
 	{
-		"name": "Inga Advisors",
+		"name": "Moonstruck Weddings",
 		"category": "Web Design & Development",
-		"link": "http://ingaadvisors.com/",
+		"link": "http://moonstruckweddings.in/",
+		"img": "moonstruck.jpg"
+	},
+	{
+		"name": "Templecloud",
+		"category": "Web Design & Development",
+		"link": "http://templecloud.co.in/",
+		"img": "templecloud.jpg"
+	},
+	{
+		"name": "Anitha Enterprises",
+		"category": "Web Design & Development",
+		"link": "http://anithaenterprises.in/",
+		"img": "anitha.jpg"
+	},
+	{
+		"name": "Inga Ventures",
+		"category": "Web Design & Development",
+		"link": "http://ingaventures.com/",
 		"img": "inga_advisors.jpg"
 	},
 	{
-		"name": "Jananon",
+		"name": "Jananom",
 		"category": "Web Design & Development",
 		"link": "https://jananom.com/",
 		"img": "jananom.jpg"
@@ -58,18 +76,6 @@
 		"category": "Web Design & Development",
 		"link": "http://relaxpackersandmovers.com/",
 		"img": "relax.jpg"
-	},
-	{
-		"name": "Anitha Enterprises",
-		"category": "Web Design & Development",
-		"link": "http://anithaenterprises.in/",
-		"img": "anitha.jpg"
-	},
-	{
-		"name": "Moonstruck Weddings",
-		"category": "Web Design & Development",
-		"link": "http://moonstruckweddings.in/",
-		"img": "moonstruck.jpg"
 	},
 	{
 		"name": "Kapa",

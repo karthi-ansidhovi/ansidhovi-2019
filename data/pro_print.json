@@ -4,29 +4,66 @@
 		"name": "Eminent Amenities brochure",
 		"img": "eminent.jpg",
 		"gallery": ["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg"]
-    },
+	},
 	{
 		"id": 2,
 		"name": "Net Pulz brochure",
 		"img": "netpulz.jpg",
-		"gallery": ["bc0.png", "bc1.png", "bc2.png", "bc3.png", "bc4.png"]
+		"gallery": ["netpulz_front.jpg", "netpulz_back.jpg"]
 	},
 	{
 		"id": 3,
 		"name": "Anitha Enterprises brochure",
 		"img": "anitha.jpg",
-		"gallery": ["cbb_front.jpg", "cbb_back.jpg", "cbb_inside.jpg"]
+		"gallery": ["cbb_outside.jpg", "cbb_inside.jpg"]
 	},
 	{
 		"id": 4,
 		"name": "Legato Packers brochure",
 		"img": "legato.jpg",
-		"gallery": ["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg"]
+		"gallery": ["legato-brochure-front.jpg", "legato-brochure-back.jpg"]
 	},
 	{
 		"id": 5,
 		"name": "Hi Rise brochure",
 		"img": "hirise.jpg",
 		"gallery": ["hirise1.jpg", "hirise2.jpg"]
+	},
+	{
+		"id": 6,
+		"name": "MGM Vodka flyer",
+		"img": "mgm_vodkas.jpg",
+		"gallery": ["mgm_vodka.jpg"]
+	},
+	{
+		"id": 7,
+		"name": "Let's dance pamphlets",
+		"img": "letsdance.jpg",
+		"gallery": ["lets_dance_1.jpg", "lets_dance_2.jpg", "lets_dance_3.jpg", "lets_dance_4.jpg", "lets_dance_5.jpg", "lets_dance_6.jpg"]
+	},
+	{
+		"id": 8,
+		"name": "Karthick Srinivasan Calendar - 2011",
+		"img": "calender-2011.jpg",
+		"gallery": ["2011_calender1.jpg", "2011_calender10.jpg", "2011_calender11.jpg", "2011_calender12.jpg", "2011_calender13.jpg", "2011_calender14.jpg", "2011_calender15.jpg", "2011_calender16.jpg", "2011_calender2.jpg", "2011_calender3.jpg", "2011_calender4.jpg", "2011_calender5.jpg", "2011_calender6.jpg", "2011_calender7.jpg", "2011_calender8.jpg", "2011_calender9.jpg"]
+	},
+	{
+		"id": 9,
+		"name": "Karthick Srinivasan Calendar - 2010",
+		"img": "calender-2010.jpg",
+		"gallery": ["2010_calendar1.jpg", "2010_calendar2.jpg", "2010_calendar3.jpg", "2010_calendar4.jpg", "2010_calendar5.jpg", "2010_calendar6.jpg", "2010_calendar7.jpg", "2010_calendar8.jpg", "2010_calendar9.jpg", "2010_calendar10.jpg", "2010_calendar11.jpg", "2010_calendar12.jpg", "2010_calendar13.jpg", "2010_calendar14.jpg", "2010_calendar15.jpg", "2010_calendar16.jpg"]
+	},
+	{
+		"id": 10,
+		"name": "Karthick Srinivasan Calendar - 2009",
+		"img": "calender-2009.jpg",
+		"gallery": ["2009_calender1.jpg", "2009_calender2.jpg", "2009_calender3.jpg", "2009_calender4.jpg", "2009_calender5.jpg", "2009_calender6.jpg", "2009_calender7.jpg", "2009_calender8.jpg", "2009_calender9.jpg", "2009_calender10.jpg", "2009_calender11.jpg", "2009_calender12.jpg", "2009_calender13.jpg", "2009_calender14.jpg"]
+	},
+	{
+		"id": 11,
+
+		"name": "Karthick Srinivasan Calendar - 2008",
+		"img": "calender-2008.jpg",
+		"gallery": ["2008_calender_1.jpg", "2008_calender_2.jpg", "2008_calender_3.jpg", "2008_calender_4.jpg", "2008_calender_5.jpg", "2008_calender_6.jpg"]
 	}
 ]

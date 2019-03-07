@@ -39,3 +39,5 @@ function getHeights(){
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();   
 });
+
+//==========================
