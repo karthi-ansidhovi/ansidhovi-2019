@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Hi Tech",
+		"img": "hitech.jpg"
+	},
+	{
+		"name": "Lets Dance",
+		"img": "letsdance.jpg"
+	},
+	{
+		"name": "V Club b",
+		"img": "vclub.jpg"
+	},
+	{
+		"name": "Allegiance",
+		"img": "allegiance.jpg"
+	},
+	{
+		"name": "MSE",
+		"img": "mse.jpg"
+	},
+	{
+		"name": "Viswak Sena",
+		"img": "viswak.jpg"
+	}
+]

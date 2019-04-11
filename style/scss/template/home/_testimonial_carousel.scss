@@ -1,0 +1,57 @@
+#testimonial_carousel {
+	min-height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	.overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+		@include whitebg(.8);
+
+		.avatar {
+			width: 100px;
+			height: 100px;
+		}
+	}
+
+	.carousel-control-prev,
+	.carousel-control-next {
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.carousel-control-prev {
+		left: 10%;
+	}
+
+	.carousel-control-next {
+		right: 10%;
+	}
+}
+
+#gallery_carousel {
+	.carousel-item img {
+		width: 100%;
+	}
+
+	.carousel-control-prev {
+		color: #000;
+	}
+
+	.carousel-control-next {
+		color: #000;
+	}
+}
+
+@media (max-width: 767px) {
+	#testimonial_carousel {
+		min-height: 650px;
+	}
+}

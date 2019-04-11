@@ -1,0 +1,69 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Century Gothic';
+	src: url('../fonts/CenturyGothic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Century Gothic';
+	src: url('../fonts/CenturyGothic-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+/*--------------------*/
+
+$thm: #0096bf;
+$thm2: #333333;
+$pista: #0acc8a;
+$crimpson: #ff5252;
+$yello: #efa007;
+$vilet: #a453f9;
+$rose: #ee2053;
+$oliv: #7a890e;
+$white: #ffffff;
+
+
+// bootstrap variable overrides
+$body-color: #636363;
+$font-family-base: 'Montserrat';
+$font-size-base: .9rem;
+$headings-font-family: 'Century Gothic';
+
+$enable-shadows: false !important;
+$input-focus-border-color: $thm;
+$input-focus-color: $thm;
+$input-box-shadow: none;
+$line-height-base: 1.9;
+$danger: #d9534f;
+$link-color: $thm;
+
+$grid-breakpoints: (xs: 0,
+sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1024px,
+xxl: 1260px);
+
+$container-max-widths: (sm: 540px,
+md: 720px,
+lg: 960px,
+xl: 1060px,
+xxl: 1200px);
+
+$toast-max-width: 200px;

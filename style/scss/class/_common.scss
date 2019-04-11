@@ -1,0 +1,75 @@
+.full_height {
+	height: 90vh;
+}
+
+.cHeading {
+	font-family: 'Century Gothic';
+	font-weight: bold;
+	@include thm(0.1);
+	font-size: 7em;
+}
+
+.banner_heading {
+	@include thm(0.7);
+}
+
+.fa-input {
+	font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.btn-circle {
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+	-webkit-transition-property: background-color;
+	/* Safari */
+	-webkit-transition-duration: 2s;
+	/* Safari */
+	transition-property: background-color;
+	transition-duration: 0.3s;
+
+	&:hover,
+	&:focus,
+	&:active {
+		text-decoration: none;
+		color: #ffffff;
+		background-color: #333333;
+	}
+}
+
+.btn-custom {
+	border-radius: 0;
+	padding: 1rem 1.75rem;
+	background-color: #333333;
+	color: #ffffff;
+}
+
+.btn-custom:hover {
+	background-color: $thm;
+	color: #fff;
+}
+
+@media (max-width: 767px) {
+	.cHeading {
+		font-size: 2.4em;
+	}
+
+	p {
+		font-size: 13px;
+	}
+}
+
+
+@media (min-width: 768px) {
+	.cHeading {
+		font-size: 5em;
+	}
+}

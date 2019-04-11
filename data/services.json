@@ -1,0 +1,37 @@
+[
+	{
+		"title": "Cloud Services",
+		"icon": "cloud_service",
+		"content": "Cloud Web hosting<br>Cloud Email hosting<br>Cloud Offsite Storage<br>Cloud Backup",
+		"link": "cloud_services",
+		"color": "pista"
+	},
+	{
+		"title": "Web Design",
+		"icon": "web_design",
+		"content": "Why worry when we are here? Rest assured that our creative designers with their skilled expertise will deliver an aesthetically appealing design to your taste.",
+		"link": "web_design",
+		"color": "crimpson"
+	},
+	{
+		"title": "Mobile Apps",
+		"icon": "mobile_apps",
+		"content": "Statistics project that consumers will download around 250 billion apps by the year 2022 which shows it will be an integral part of any organization.",
+		"link": "mobile_apps",
+		"color": "yello"
+	},
+	{
+		"title": "IoT",
+		"icon": "iot",
+		"content": "Internet of Things or IoT in short is the In-Thing. Imagine what you can do when you can control your home appliances such as camera, lights, coffer makers...",
+		"link": "iot",
+		"color": "vilet"
+	},
+	{
+		"title": "Website Security",
+		"icon": "wesite_security",
+		"content": "Website hacking has been an issue for companies & organizations for years. While the Government agencies are busy trying to track down these criminals, one...",
+		"link": "web_security",
+		"color": "rose"
+	}
+]
