@@ -512,7 +512,7 @@
 		$('#signup_portfolio').submit(function() {
 			$("#message").html("Adding your email address...");
 			$.ajax({
-            url: 'http://ansidhovi.co.in/ansidhovi.com/store-address.php', // proper url to your "store-address.php" file
+            url: 'https://ansidhovi.com/2019/store-address.php', // proper url to your "store-address.php" file
             type: 'POST', // <- IMPORTANT
             data: $('#signup_portfolio').serialize() + '&ajax=true',
             success: function(msg) {

@@ -11,7 +11,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="img/favicon32x32.png">
 </head>
 <body>
-	 <script type="text/javascript">
+	<script type="text/javascript">
 		function getHtml( parentElement, file )
 		{
 			var client = new XMLHttpRequest();
@@ -1730,7 +1730,7 @@
 		$('#signup').submit(function() {
 			$("#message").html("Adding your email address...");
 			$.ajax({
-            url: 'http://ansidhovi.co.in/ansidhovi.com/store-address.php', // proper url to your "store-address.php" file
+            url: 'https://ansidhovi.com/2019/store-address.php', // proper url to your "store-address.php" file
             type: 'POST', // <- IMPORTANT
             data: $('#signup').serialize() + '&ajax=true',
             success: function(msg) {
