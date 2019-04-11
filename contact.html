@@ -523,7 +523,7 @@ $("#contactForm").on('submit', function(event){
 
 			$.ajax({
 				type: "POST",
-				url: "sendform.php",
+				url: "http://ansidhovi.co.in/ansidhovi.com/sendform.php",
 				data: {
 					name: name,
 					email: email,
@@ -552,7 +552,7 @@ $("#contactForm").on('submit', function(event){
 		$('#signup_contact').submit(function() {
 			$("#message").html("Adding your email address...");
 			$.ajax({
-            url: 'store-address.php', // proper url to your "store-address.php" file
+            url: 'http://ansidhovi.co.in/ansidhovi.com/store-address.php', // proper url to your "store-address.php" file
             type: 'POST', // <- IMPORTANT
             data: $('#signup_contact').serialize() + '&ajax=true',
             success: function(msg) {
